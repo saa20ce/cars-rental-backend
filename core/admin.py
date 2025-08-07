@@ -6,7 +6,7 @@ from .forms import CustomerReviewAdminForm
 @admin.register(CustomerReview)
 class CustomerReviewAdmin(admin.ModelAdmin):
     form = CustomerReviewAdminForm
-    list_display = ('full_name','rating','status','submited_at','published_at')
+    list_display = ('full_name','rating','status','submitted_at','published_at')
     list_filter = ('status','rating')
     search_fields = ('full_name','email','phone')
     actions = ['make_published']

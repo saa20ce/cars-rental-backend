@@ -14,7 +14,7 @@ class CustomerReview(models.Model):
         MinValueValidator(1),
         MaxValueValidator(5)
     ])
-    submited_at = models.DateTimeField('Дата прихода отзыва',auto_now=True)
+    submitted_at = models.DateTimeField('Дата прихода отзыва',auto_now=True)
     published_at = models.DateTimeField('Дата публикации отзыва',null=True,blank=True)
     status = models.CharField('Статус',max_length=20,choices=STATUS_CHOICES,default='pending')
 
