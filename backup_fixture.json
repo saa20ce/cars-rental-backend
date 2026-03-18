@@ -1,0 +1,100 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$vHV9TSbsYcfog3nbbOB7au$2GGZMtc4yWA5g6Ims5dEKpqHGXmz04ZLd06lV2mUEFY=",
+    "last_login": "2026-03-17T08:01:03.146Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-17T08:00:44.463Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "24sigprddb4acx5mebofscqd552196vk",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOAQZcuvcMZIBBqgaS0q6Md9cmXej2v_f-SwTa1hq2wUuYszgLEKffLVJ6cNtBvlO7dZl6W5c5yl2RBx3y2jM_L4f7d1Bp1G8dlWVCj05BBNTJa07FFVZOTWQZsnKgDZeSCxrWoMkhWe9pAhMZULw_5aM34w:1w2PMN:R0XWjBRMd1xRjyfYAtm1wDtrnUXYijWI1ot7lBOlJAc",
+    "expire_date": "2026-03-31T08:01:03.153Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 1,
+  "fields": {
+    "image": "thank_you_letters/whatsapp-scan-2025-10-30-at-11.58.13_page-0001-1.jpg",
+    "description": "1",
+    "created_at": "2026-03-17T08:02:55.862Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 2,
+  "fields": {
+    "image": "thank_you_letters/blagodarstvennoe-pismo_page-0001-3.jpg",
+    "description": "2",
+    "created_at": "2026-03-17T08:03:42.293Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 3,
+  "fields": {
+    "image": "thank_you_letters/blagodarstvennoe_pismo_rentasib_page-0001.jpg",
+    "description": "3",
+    "created_at": "2026-03-17T08:03:58.373Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 4,
+  "fields": {
+    "image": "thank_you_letters/gruppa-kompanii_page-0001-1.jpg",
+    "description": "4",
+    "created_at": "2026-03-17T08:04:06.253Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 5,
+  "fields": {
+    "image": "thank_you_letters/blagodarstvennoe-pismo_page-0001-3_CRb9ojm.jpg",
+    "description": "5",
+    "created_at": "2026-03-17T08:04:11.796Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 6,
+  "fields": {
+    "image": "thank_you_letters/blagodarstvennoe-pismo_page-0001-2.jpg",
+    "description": "6",
+    "created_at": "2026-03-17T08:04:16.630Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 7,
+  "fields": {
+    "image": "thank_you_letters/blagodarstvennoe_pismo_rentasib_page-0001_pP0m7ZH.jpg",
+    "description": "7",
+    "created_at": "2026-03-17T08:04:22.473Z"
+  }
+},
+{
+  "model": "core.thankyouletter",
+  "pk": 8,
+  "fields": {
+    "image": "thank_you_letters/blagodarnost-ot-restteh_page-0001-1.jpg",
+    "description": "8",
+    "created_at": "2026-03-17T08:04:29.181Z"
+  }
+}
+]
